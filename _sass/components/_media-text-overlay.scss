@@ -89,6 +89,10 @@
 			@media (min-width: $breakpoint-xl) {
 				width: 45%;
 			}
+			
+			span {
+			    display: block;
+			}
 		}
 
 		h1 {
