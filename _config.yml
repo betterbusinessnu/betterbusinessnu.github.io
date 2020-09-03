@@ -1,0 +1,20 @@
+port: 3000
+baseurl: ""
+
+sass:
+  sass_dir: _sass
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+- jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+  - last 2 versions
+
+exclude: [
+".git",
+".gitignore",
+".DS_Store",
+"README.md",
+]
